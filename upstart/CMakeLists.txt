@@ -20,7 +20,7 @@
 # luna-service2/upstart/CMakeLists.txt
 #
 
-install(FILES ls-hubd_private DESTINATION ${UPSTART_INSTALL_PATH})
-install(FILES ls-hubd_private_watchdog DESTINATION ${UPSTART_INSTALL_PATH})
-install(FILES ls-hubd_public DESTINATION ${UPSTART_INSTALL_PATH})
-install(FILES ls-hubd_public_watchdog DESTINATION ${UPSTART_INSTALL_PATH})
+install(FILES ls-hubd_private.conf DESTINATION ${UPSTART_INSTALL_PATH})
+install(FILES ls-hubd_private_watchdog.conf DESTINATION ${UPSTART_INSTALL_PATH})
+install(FILES ls-hubd_public.conf DESTINATION ${UPSTART_INSTALL_PATH})
+install(FILES ls-hubd_public_watchdog.conf DESTINATION ${UPSTART_INSTALL_PATH})

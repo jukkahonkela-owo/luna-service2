@@ -132,7 +132,7 @@ if (TARGET_DEVICE OR TARGET_EMULATOR)
     set(CONF_INSTALL_PATH "/etc/ls2")
 
     # Install upstart jobs using full path
-    set(UPSTART_INSTALL_PATH "/etc/event.d")
+    set(UPSTART_INSTALL_PATH "/etc/init")
 
 else ()
     # Desktop
@@ -140,7 +140,7 @@ else ()
 
     # Install relative to CMAKE_INSTALL_PREFIX 
     set(CONF_INSTALL_PATH "etc/ls2")
-    set(UPSTART_INSTALL_PATH "etc/event.d")
+    set(UPSTART_INSTALL_PATH "etc/init")
 endif ()
 
 # These variables are meant to be used by CMakeLists.txt in subdirectories and

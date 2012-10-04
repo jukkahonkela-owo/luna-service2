@@ -17,8 +17,8 @@
 #
 # LICENSE@@@
 
-UPSTART_PUB=/etc/event.d/ls-hubd_public
-UPSTART_PRV=/etc/event.d/ls-hubd_private
+UPSTART_PUB=/etc/init/ls-hubd_public
+UPSTART_PRV=/etc/init/ls-hubd_private
 
 TETHER="false"
 TETHER_STATUS="disabled"
